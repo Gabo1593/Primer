@@ -2,3 +2,16 @@ p{
     text-align: center;
     color: blueviolet;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    width: 80%;
+    border: 1px solid red;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    font-size: 4rem;
+    color: red;
+}
