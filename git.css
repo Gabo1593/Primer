@@ -3,6 +3,18 @@ p{
     color: blueviolet;
     font-size: 1.5rem;
 }
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    background: rgb(10, 197, 35);
+    width: 100%;
+    height: 30px;
+    border: 1px solid red;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
 .container{
     display: flex;
     flex-direction: column;
