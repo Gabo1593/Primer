@@ -24,7 +24,25 @@ p{
     text-align: center;
     margin: auto;
 }
-h2{
-    font-size: 4rem;
-    color: red;
+.imagenes{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+.imagenes div{
+    min-height: 150px;
+    color: aliceblue;
+    font-size: 1.3rem;
+   
+}
+.imagenes div p{
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+.img1{
+    background-image: url(rias.jpg);
+    background-size: cover;
 }
