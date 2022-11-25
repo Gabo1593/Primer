@@ -13,6 +13,15 @@ p{
     margin: auto;
     font-size: 1.5rem;
     text-transform: uppercase;
+    text-shadow:  -1px 4px 12px black;
+}
+.cabecera p{
+    font-weight: bold;
+}
+.cabecera:hover{
+    color: blueviolet;
+    font-size: 1.7rem;
+    text-shadow:  -1px 4px 12px yellow;
 }
 .container{
     display: flex;
@@ -26,4 +35,7 @@ p{
 h2{
     font-size: 4rem;
     color: red;
+}
+ h2:hover {
+    color: aqua;
 }
